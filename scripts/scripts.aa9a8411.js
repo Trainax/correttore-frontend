@@ -1,3 +1,5 @@
+var hostName = "https://cors-anywhere.herokuapp.com/http://80.211.111.61/correttoreapi"
+
 "use strict";
 angular.module("frontendStableApp", ["ngAnimate", "ngAria", "ngCookies", "ngMessages", "ngResource", "ngRoute", "ngSanitize", "ngMaterial", "ngFileUpload"]).config(["$routeProvider", function(a) {
   a.when("/", {
@@ -34,7 +36,7 @@ angular.module("frontendStableApp", ["ngAnimate", "ngAria", "ngCookies", "ngMess
 }]).config(["$mdThemingProvider", function(a) {
   a.theme("guest").primaryPalette("light-green").accentPalette("deep-orange").warnPalette("pink").dark(), a.theme("student").primaryPalette("amber").accentPalette("cyan").warnPalette("pink").dark(), a.theme("teacher").primaryPalette("blue").accentPalette("deep-orange").warnPalette("amber"), a.theme("admin").primaryPalette("green").accentPalette("indigo").warnPalette("amber"), a.setDefaultTheme("guest"), a.alwaysWatchTheme(!0)
 }]).config(["ConfigProvider", function(a) {
-  a.serverVersion = "v1", a.serverHost = "http://80.211.111.61/correttoreapi", a.authTokenName = "x-authorization-token", a.testResultsReloadInterval = 8e3
+  a.serverVersion = "v1", a.serverHost = hostName, a.authTokenName = "x-authorization-token", a.testResultsReloadInterval = 8e3
 }]), angular.module("frontendStableApp").provider("Config", function() {
   this.serverVersion = null, this.serverHost = null, this.authTokenName = null, this.testResultsReloadInterval = 5e3, this.clientVersion = "0.1.9";
   var a = "Uninitialized config server values";
