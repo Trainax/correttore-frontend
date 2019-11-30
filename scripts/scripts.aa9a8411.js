@@ -67,7 +67,7 @@ angular.module("frontendStableApp", ["ngAnimate", "ngAria", "ngCookies", "ngMess
     }
     return a
   }
-  var b = ["1 byte è composto da addirittura 8 bit! Sono tanti 8 bit...", "Se cancelli system32 il computer va più veloce!", "Trainax è stato qui!","Puoi usare il 100% del tuo computer senza mouse, prova!", "sudo rm -rf /* cambia sfondo del desktop su Ubuntu", "Han Solo MUORE", "Se hai Chrome puoi ancora vedere i voti sul registro (◕ᴗ◕✿)", "I gorilla sono animali notoriamente bravi a battere sulla tastiera", "Telegram è meglio di Whatsapp", "In C99 puoi dichiarare array anonimi con (int[]){...}", "Puoi inizializzare le strutture a 0 con struct something X = {0};", "In GCC il compilatore accetta suggerimenti sul branching del codice, rendendo potenzialmente più efficiente il codice"],
+  var b = ["1 byte è composto da addirittura 8 bit! Sono tanti 8 bit...", "Se cancelli system32 il computer va più veloce!", "Trainax è stato qui!","Puoi usare il 100% del tuo computer senza mouse, prova!", "sudo rm -rf /* cambia sfondo del desktop su Ubuntu", "Han Solo MUORE", "Se hai Chrome puoi ancora vedere i voti sul registro (◕ᴗ◕✿)", "I gorilla sono animali notoriamente bravi a battere sulla tastiera", "Telegram è meglio di Whatsapp", "Mozilla Firefox è meglio di Google Chrome", "In C99 puoi dichiarare array anonimi con (int[]){...}", "Puoi inizializzare le strutture a 0 con struct something X = {0};", "In GCC il compilatore accetta suggerimenti sul branching del codice, rendendo potenzialmente più efficiente il codice"],
     c = 0;
   this.$get = function() {
     return {
